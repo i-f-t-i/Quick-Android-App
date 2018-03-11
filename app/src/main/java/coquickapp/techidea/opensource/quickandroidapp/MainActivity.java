@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         webView = (WebView) findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setAppCacheEnabled(true);
-        webView.loadUrl("https://photo.techidea.co/");   // name of your responsive mobile ready website
+        webView.loadUrl("http://photo.techidea.co/");   // name of your responsive mobile ready website
         swipe.setRefreshing(true);
         webView.setWebViewClient(new WebViewClient(){
 
